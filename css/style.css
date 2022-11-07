@@ -1,0 +1,112 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(223, 223, 223);
+}
+
+.container {
+    background-color: #fff;
+    height: auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.head {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: rgb(49,52,69);
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    background-color: rgb(244,228,224);
+}
+
+.intro_img {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.intro_img img {
+    border-radius: 12px;
+}
+
+.intro_txt {
+    padding-right: 30px;
+}
+
+.intro_head {
+    font-style: italic;
+    text-align: start;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    background-color: rgb(183,228,226) ;
+  }
+
+
+
+table, td, th {
+    border: 2px solid black;
+    background-color:  rgb(162,169,187);
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+th {
+    background-color: rgb(72,80,101);
+  }
+
+.ingredients {
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+
+.ingredients h3 {
+    text-align: center;
+  }
+
+.methods {
+padding-right: 30px;
+}
+
+.methods h3 {
+    text-align: center;
+}
+
+.mtd_steps {
+    font-weight: bold;
+}
+
+.photo_card {
+    background-color: rgb(244,228,224);
+}
+
+.photo_card h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card_wrapper img {
+    border-radius: 12px;
+    border: #fff solid 5px;
+}
